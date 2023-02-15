@@ -72,5 +72,6 @@ def main():
 
 
 if __name__ == "__main__":
-    parse_argv(sys.argv)
+    # parse_argv(sys.argv)
+    parse_argv(['/home/laurence/Documents/work/code/mace-jax/mace_jax/run_train.py', 'configs/aspirin_small.gin'])
     main()
